@@ -1,0 +1,50 @@
+:root {
+    --prim: #73683B;
+    --sec: #E55934;
+    --tert: #6B0504;
+    --quat: #FFF9A5;
+    --font: 
+}
+
+body {
+    background-color: var(--quat);
+}
+
+.section-heading {
+    color: var(--tert);
+}
+
+.figs {
+    margin-bottom: 5px;
+}
+
+.figure-div {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    background-color: var(--prim);
+    border-radius: 5px;
+    color: black;
+}
+
+.menu {
+    border: 3px solid var(--tert);
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: var(--sec);
+}
+
+.submit-btn{
+    width: 100%;
+    border: 2px solid var(--sec);
+    margin: 10px;
+}
+
+.receipt{
+    border: 2px solid var(--tert);
+    padding: 5px;
+}
+
+.receipt-item {
+    border: 2px solid var(--sec);
+}
